@@ -10,7 +10,8 @@
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "eslint 'src/**/*.{js,svelte,ts}'",
     "format": "npm run lint -- --fix",
-    "test": "jest"
+    "test": "jest",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@babel/core": "^7.17.2",
