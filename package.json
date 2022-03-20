@@ -1,6 +1,15 @@
 {
-  "name": "svelte-app",
-  "version": "0.0.1",
+  "name": "@hadeeka/garden-webapp",
+  "author": "Mohab Mohamed",
+  "license": "MIT",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hadeeka/garden-webapp.git"
+  },
+  "publishConfig": {
+    "@hadeeka:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
