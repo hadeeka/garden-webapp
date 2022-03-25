@@ -5,6 +5,7 @@ specifiers:
   '@babel/preset-env': ^7.16.11
   '@babel/preset-typescript': ^7.16.7
   '@changesets/cli': ^2.21.1
+  '@hadeeka/garden-components': 0.0.0
   '@ota-meshi/eslint-plugin-svelte': ^0.9.0
   '@sveltejs/adapter-auto': ^1.0.0-next.33
   '@sveltejs/kit': ^1.0.0-next.303
@@ -32,6 +33,7 @@ specifiers:
   typescript: ~4.5.4
 
 dependencies:
+  '@hadeeka/garden-components': 0.0.0
   d3: 7.3.0
 
 devDependencies:
@@ -1457,6 +1459,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@hadeeka/garden-components/0.0.0:
+    resolution: {integrity: sha512-eiDWza9pi0v4gXowGMn1qBDozki61Mgq08PqhLL2jxQMvqSxOfjR+q5iBb9wF38N48NIgB/dIFpOgdUSgXljmw==, tarball: download/@hadeeka/garden-components/0.0.0/4c5b81e511804ebab2c22eeed55f9b604b9fbebdfaab24c0bcd9c5f189ae7b10}
+    dev: false
 
   /@humanwhocodes/config-array/0.5.0:
     resolution: {integrity: sha512-FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==}
