@@ -7,7 +7,7 @@ specifiers:
   '@changesets/cli': ^2.21.1
   '@hadeeka/garden-components': 0.0.0
   '@ota-meshi/eslint-plugin-svelte': ^0.9.0
-  '@sveltejs/adapter-auto': ^1.0.0-next.34
+  '@sveltejs/adapter-auto': ^1.0.0-next.38
   '@sveltejs/kit': ^1.0.0-next.322
   '@types/jest': ^27.4.0
   '@typescript-eslint/eslint-plugin': ^5.10.1
@@ -42,7 +42,7 @@ devDependencies:
   '@babel/preset-typescript': 7.16.7_@babel+core@7.17.8
   '@changesets/cli': 2.21.1
   '@ota-meshi/eslint-plugin-svelte': 0.9.0_eslint@7.32.0+svelte@3.46.4
-  '@sveltejs/adapter-auto': 1.0.0-next.34
+  '@sveltejs/adapter-auto': 1.0.0-next.39
   '@sveltejs/kit': 1.0.0-next.322_svelte@3.46.4
   '@types/jest': 27.4.1
   '@typescript-eslint/eslint-plugin': 5.15.0_5e7616bd0735d181f531fc5dab7b1847
@@ -1786,31 +1786,31 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.34:
-    resolution: {integrity: sha512-BzZVfy39idFojauroLrE/v9paJ1/HOlS2R857ooCwaLg+RrRy6zJHWwYxNSv5e8AaZiVg7ioZZpU/2g6ZgUpaQ==}
+  /@sveltejs/adapter-auto/1.0.0-next.39:
+    resolution: {integrity: sha512-mscydZQzI9HZ+IjD+/yxyuKKd4/KxZv/M43BaeBvpuhToEe3crmatIHDQIZc0GBZZgTVpvk8yp3yIM8q3RugLw==}
     dependencies:
-      '@sveltejs/adapter-cloudflare': 1.0.0-next.17
-      '@sveltejs/adapter-netlify': 1.0.0-next.51
-      '@sveltejs/adapter-vercel': 1.0.0-next.47
+      '@sveltejs/adapter-cloudflare': 1.0.0-next.18
+      '@sveltejs/adapter-netlify': 1.0.0-next.55
+      '@sveltejs/adapter-vercel': 1.0.0-next.50
     dev: true
 
-  /@sveltejs/adapter-cloudflare/1.0.0-next.17:
-    resolution: {integrity: sha512-B2ze5L0LsHFsZctVNy4sw0XxgV2YiVEHyMrWRo3pmpTwpu6GT5V3U2fsEoCMg/RKMazlWkyKTCuUqmcpYjjf2g==}
+  /@sveltejs/adapter-cloudflare/1.0.0-next.18:
+    resolution: {integrity: sha512-iIb7ScN2hnnfVQPhRjw0FYpovYJrw4n22BFAQIg6QvOwmmGz1E3QkyBkm/tRmyY7emDfnljgXtvk4Hsoszp5Ug==}
     dependencies:
       esbuild: 0.14.27
       worktop: 0.8.0-next.12
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.51:
-    resolution: {integrity: sha512-P7/cW/0z8zd8J6DOI2yxKZG0+HRMMuzfOf0yzFXX0vRwBePhKlZ/H4qhTOo2NrCmj3Len545o+ugj5gyMXl1+g==}
+  /@sveltejs/adapter-netlify/1.0.0-next.55:
+    resolution: {integrity: sha512-LbqupuX8SdvUdCLSLiazPdU+JwwVhWGmoAopwlFkdlGOsGEag6jB+CjEYPmy81SVMSKxtYA2RqNzBPpPbURDtw==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.14.27
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.47:
-    resolution: {integrity: sha512-VV3vP8KqL9XOc7xfQLVhXTM5jrTme+r1qJy98u5/dhAhkdjqrGDwAKo/s7MoB3rTYxLb2b8I4QxAaoz2Y2aIBg==}
+  /@sveltejs/adapter-vercel/1.0.0-next.50:
+    resolution: {integrity: sha512-yta0AkuWEr7qrm8LB34F4ZdCtMxj+cHD4huwrRYCgjv+PSJHLPwe7aH53+Mhrv6La0TgeyQ/f2lTyhBMXZXn9Q==}
     dependencies:
       esbuild: 0.14.27
     dev: true
