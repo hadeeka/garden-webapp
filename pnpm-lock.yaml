@@ -8,7 +8,7 @@ specifiers:
   '@hadeeka/garden-components': 0.0.0
   '@ota-meshi/eslint-plugin-svelte': ^0.9.0
   '@sveltejs/adapter-auto': ^1.0.0-next.38
-  '@sveltejs/kit': ^1.0.0-next.322
+  '@sveltejs/kit': ^1.0.0-next.324
   '@types/jest': ^27.4.0
   '@typescript-eslint/eslint-plugin': ^5.10.1
   '@typescript-eslint/parser': ^5.10.1
@@ -43,7 +43,7 @@ devDependencies:
   '@changesets/cli': 2.21.1
   '@ota-meshi/eslint-plugin-svelte': 0.9.0_eslint@7.32.0+svelte@3.46.4
   '@sveltejs/adapter-auto': 1.0.0-next.39
-  '@sveltejs/kit': 1.0.0-next.322_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.324_svelte@3.46.4
   '@types/jest': 27.4.1
   '@typescript-eslint/eslint-plugin': 5.15.0_5e7616bd0735d181f531fc5dab7b1847
   '@typescript-eslint/parser': 5.15.0_eslint@7.32.0+typescript@4.5.5
@@ -1815,8 +1815,8 @@ packages:
       esbuild: 0.14.27
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.322_svelte@3.46.4:
-    resolution: {integrity: sha512-RPGu1LzE7PhPEqMf/MjGp9CAhBYtYbjpEKMR89KlfvNHCnRuXFdoR4Yrv9o1yGGN+kHSLcRJzibKHxe34AebJA==}
+  /@sveltejs/kit/1.0.0-next.324_svelte@3.46.4:
+    resolution: {integrity: sha512-/CGW9rQpHQLBb2EcMw08yelD/C9hTsypymctUWdhryMTI8n1VWb0gkUcSHsz8n8oAAbKLXqwyHqeLATfcIMg2w==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
