@@ -7,7 +7,7 @@ specifiers:
   '@changesets/cli': ^2.21.1
   '@hadeeka/garden-components': 0.0.0
   '@ota-meshi/eslint-plugin-svelte': ^0.9.0
-  '@sveltejs/adapter-auto': ^1.0.0-next.42
+  '@sveltejs/adapter-auto': ^1.0.0-next.43
   '@sveltejs/kit': ^1.0.0-next.330
   '@types/jest': ^27.4.0
   '@typescript-eslint/eslint-plugin': ^5.10.1
@@ -42,7 +42,7 @@ devDependencies:
   '@babel/preset-typescript': 7.16.7_@babel+core@7.17.8
   '@changesets/cli': 2.21.1
   '@ota-meshi/eslint-plugin-svelte': 0.9.0_eslint@7.32.0+svelte@3.46.4
-  '@sveltejs/adapter-auto': 1.0.0-next.42
+  '@sveltejs/adapter-auto': 1.0.0-next.43
   '@sveltejs/kit': 1.0.0-next.330_svelte@3.46.4
   '@types/jest': 27.4.1
   '@typescript-eslint/eslint-plugin': 5.15.0_5e7616bd0735d181f531fc5dab7b1847
@@ -1786,12 +1786,12 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.42:
-    resolution: {integrity: sha512-AMTrR0A2Uss1FQkpYDV/7lYgQtRHyTrvwGCrll1lwZNPexb9MZGU4+x8csGKTNgf29Dg3lCEc9JBQti89rHZbw==}
+  /@sveltejs/adapter-auto/1.0.0-next.43:
+    resolution: {integrity: sha512-ihlAdfMWmqNbo1zHIT77HG/fBZSrAD/VBFbUjm41+7jb3XUg87tQsMbsd/SQ360IAA2atbwKc/1wNKQLfpahDw==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.19
-      '@sveltejs/adapter-netlify': 1.0.0-next.57
-      '@sveltejs/adapter-vercel': 1.0.0-next.51
+      '@sveltejs/adapter-netlify': 1.0.0-next.58
+      '@sveltejs/adapter-vercel': 1.0.0-next.52
     dev: true
 
   /@sveltejs/adapter-cloudflare/1.0.0-next.19:
@@ -1801,16 +1801,16 @@ packages:
       worktop: 0.8.0-next.13
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.57:
-    resolution: {integrity: sha512-rqvOr488+7NGkEHw/D6v1Y8Fg0MbiUP/YI1uSYjKy+tA8/4FOdBgU8Nk8daPTxWEU+CpsgzvA4X8IVonuML9SA==}
+  /@sveltejs/adapter-netlify/1.0.0-next.58:
+    resolution: {integrity: sha512-ZkL9mop/oTLfSj3tPCnTjQw7cKfoYLiptDzTypv7l+HDfE7SCFzJuK7YenjTMPoKTakFVfYAEEVIdJEySZt5MQ==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.14.27
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.51:
-    resolution: {integrity: sha512-U4GSe1tYcWq90XCQfLK4qmEEVA1MyWgnT6i7LhbLVOoNP8bf3ict3xKjGrHcx/CY4jNUBA80DXSkj/hpFkweAg==}
+  /@sveltejs/adapter-vercel/1.0.0-next.52:
+    resolution: {integrity: sha512-HEGmOX1HPGAotmosms0k88sTG9LnPMEQkpmWoyMdcffsPcT45SkJepXP/lvqNNlbUl9epZX95nqyZVie/mauRA==}
     dependencies:
       esbuild: 0.14.27
     dev: true
